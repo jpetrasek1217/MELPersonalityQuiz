@@ -1,0 +1,83 @@
+.ResultContainer{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10vh;
+}
+
+.ResultImage{
+    max-width: 50vw;
+    height: auto;
+    margin: 2vw 0;
+}
+
+
+
+.buttonsContainer{
+    display: flex;
+}
+
+.ResultTitle{
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.Button{
+    margin: 0.5em;
+    border: 0.15em solid rgba(224, 240, 255, 0.2);
+    border-radius: 1.25em;
+    outline: none;
+    display: flex;
+    width: 37vw;
+    height: 4em;
+    padding: 1vw;
+    background-color: #230660;
+    font-family: 'Basier Circle', sans-serif;
+    color: #e0f0ff;
+    font-size: 1.75em;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    filter: drop-shadow(0.5rem 0.5rem 0.25rem #000000);
+    transition: transform 0.2s ease;
+    box-shadow: none;
+}
+
+.Button:hover{
+    background-color: #e0f0ff;
+    color: #230660;
+}
+
+.Button:active{
+    transform: translate(8px, 8px);
+    filter: drop-shadow(0 0 0.25rem #000000);
+}
+
+
+@media(max-width: 768px){
+    .ResultImage{
+        max-width: 80vw;
+    }
+
+    .ResultTitle{
+        font-size: 1.5em;
+    }
+    .Button{
+        font-size: 1.0em;
+        width: 40vw;
+    }
+}
+
+.buttonIcon{
+    width: 2em;
+    padding: 0.1em;
+    margin-right: 1em;
+}
+
+.Link{
+    text-decoration: none;
+}

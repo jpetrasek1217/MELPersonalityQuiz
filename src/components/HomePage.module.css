@@ -1,0 +1,93 @@
+.homePageContainer{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4vh;
+    margin-left: 4vh;
+    margin-right: 4vh;
+}
+
+.StartButton{
+    margin: 0.5em;
+    border: 0.15em solid rgba(224, 240, 255, 0.2);
+    border-radius: 1.25em;
+    outline: none;
+    display: flex;
+    width: 60vw;
+    height: 4em;
+    padding: 1vw;
+    background-color: #230660;
+    font-family: 'Basier Circle', sans-serif;
+    color: #e0f0ff;
+    font-size: 1.75em;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    filter: drop-shadow(0.5rem 0.5rem 0.25rem #000000);
+    transition: transform 0.2s ease;
+    box-shadow: none;
+}
+
+.StartButton:hover{
+    background-color: #e0f0ff;
+    color: #230660;
+}
+
+.StartButton:active{
+    transform: translate(8px, 8px);
+    filter: drop-shadow(0 0 0.25rem #000000);
+}
+
+.ShareButton{
+    margin: 0.5em;
+    border: 0.15em solid rgba(224, 240, 255, 0.2);
+    border-radius: 1.25em;
+    outline: none;
+    display: flex;
+    width: 35vw;
+    height: 4em;
+    padding: 1vw;
+    background-color: #230660;
+    font-family: 'Basier Circle', sans-serif;
+    color: #e0f0ff;
+    font-size: 1.75em;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    filter: drop-shadow(0.5rem 0.5rem 0.25rem #000000);
+    transition: transform 0.2s ease;
+    box-shadow: none;
+}
+
+.ShareButton:hover{
+    background-color: #e0f0ff;
+    color: #230660;
+}
+
+.ShareButton:active{
+    transform: translate(8px, 8px);
+    filter: drop-shadow(0 0 0.25rem #000000);
+}
+
+.titleImage{
+    max-width: 50vw;
+    height: auto;
+    margin: 2vw 0;
+}
+
+.IconStyle{
+    height: 4vh;
+    margin-right: 1vw;
+    filter: brightness(39) hue-rotate(-75deg);
+}
+.IconStyleActive{
+    height: 4vh;
+    margin-right: 1vw;
+    filter: none;
+}
+
+.Link{
+    text-decoration: none;
+}
