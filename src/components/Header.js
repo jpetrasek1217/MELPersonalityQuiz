@@ -20,9 +20,9 @@ function Header(){
 
     return(
         <div className={classes.headerContainer}>
-            <Link className={classes.Link} to="/" ><img src={melLogo} alt='McMaster Extra Life Logo' className={classes.headerItem} /></Link>
+            <Link className={classes.Link} to="/MelPersonalityQuiz" ><img src={melLogo} alt='McMaster Extra Life Logo' className={classes.headerItem} /></Link>
             <h2 className={classes.headerText}>Which McMaster Extra Life Exec Are You?</h2>
-            <Link className={classes.Link} to="/quiz" onClick={handleClick}><img src={restart} alt='Restart Quiz' className={classes.headerItem}  /></Link>
+            <Link className={classes.Link} to="/MelPersonalityQuiz" onClick={handleClick}><img src={restart} alt='Restart Quiz' className={classes.headerItem}  /></Link>
         </div>
     );
 }
