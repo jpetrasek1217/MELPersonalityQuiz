@@ -2,7 +2,7 @@
   "name": "mel-personality-test",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://jpetrasek1217.github.io/MelPersonalityQuiz",
+  "homepage": "http://jpetrasek1217.github.io/MELpersonalityQuiz",
   "dependencies": {
     "cra-template": "1.2.0",
     "react": "^18.2.0",
@@ -37,6 +37,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "gh-pages": "^5.0.0"
   }
 }
