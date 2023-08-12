@@ -16,7 +16,7 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/MELpersonalityQuiz" element={<HomePage />} />
+      <Route path="/MelPersonalityQuiz" element={<HomePage />} />
       <Route path="/quiz" element={<Quiz />} />
       <Route path="/result/ICAT" element={<ICAT />} />
       <Route path="/result/ICAN" element={<ICAN />} />
