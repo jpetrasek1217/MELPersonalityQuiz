@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/MelPersonalityQuiz/static/css/main.26b490a6.css",
-    "main.js": "/MelPersonalityQuiz/static/js/main.2fc06983.js",
-    "static/media/QuestionImage.JPG": "/MelPersonalityQuiz/static/media/QuestionImage.e3bc7a2c2ffb0b278d57.JPG",
-    "static/media/titleImage.jpg": "/MelPersonalityQuiz/static/media/titleImage.45bd9fd59bb8b23fb80a.jpg",
-    "static/media/background1.png": "/MelPersonalityQuiz/static/media/background1.fda59121d2b54b66410d.png",
-    "static/media/help.png": "/MelPersonalityQuiz/static/media/help.ce74605a80b2cde71d9b.png",
-    "static/media/discord.png": "/MelPersonalityQuiz/static/media/discord.dc949575e585361cbf56.png",
-    "static/media/restart.png": "/MelPersonalityQuiz/static/media/restart.5a5635f6e612824d0eac.png",
-    "static/media/instagram.png": "/MelPersonalityQuiz/static/media/instagram.2dd68dacd97bab7a5b01.png",
-    "static/media/email.png": "/MelPersonalityQuiz/static/media/email.6ac7d6570facaee26445.png",
-    "static/media/linktree.png": "/MelPersonalityQuiz/static/media/linktree.70d3703b9e28aeef6c22.png",
-    "index.html": "/MelPersonalityQuiz/index.html",
-    "main.26b490a6.css.map": "/MelPersonalityQuiz/static/css/main.26b490a6.css.map",
-    "main.2fc06983.js.map": "/MelPersonalityQuiz/static/js/main.2fc06983.js.map"
+    "main.css": "/MELpersonalityQuiz/static/css/main.26b490a6.css",
+    "main.js": "/MELpersonalityQuiz/static/js/main.5cda4b97.js",
+    "static/media/QuestionImage.JPG": "/MELpersonalityQuiz/static/media/QuestionImage.e3bc7a2c2ffb0b278d57.JPG",
+    "static/media/titleImage.jpg": "/MELpersonalityQuiz/static/media/titleImage.45bd9fd59bb8b23fb80a.jpg",
+    "static/media/background1.png": "/MELpersonalityQuiz/static/media/background1.fda59121d2b54b66410d.png",
+    "static/media/help.png": "/MELpersonalityQuiz/static/media/help.ce74605a80b2cde71d9b.png",
+    "static/media/discord.png": "/MELpersonalityQuiz/static/media/discord.dc949575e585361cbf56.png",
+    "static/media/restart.png": "/MELpersonalityQuiz/static/media/restart.5a5635f6e612824d0eac.png",
+    "static/media/instagram.png": "/MELpersonalityQuiz/static/media/instagram.2dd68dacd97bab7a5b01.png",
+    "static/media/email.png": "/MELpersonalityQuiz/static/media/email.6ac7d6570facaee26445.png",
+    "static/media/linktree.png": "/MELpersonalityQuiz/static/media/linktree.70d3703b9e28aeef6c22.png",
+    "index.html": "/MELpersonalityQuiz/index.html",
+    "main.26b490a6.css.map": "/MELpersonalityQuiz/static/css/main.26b490a6.css.map",
+    "main.5cda4b97.js.map": "/MELpersonalityQuiz/static/js/main.5cda4b97.js.map"
   },
   "entrypoints": [
     "static/css/main.26b490a6.css",
-    "static/js/main.2fc06983.js"
+    "static/js/main.5cda4b97.js"
   ]
 }
