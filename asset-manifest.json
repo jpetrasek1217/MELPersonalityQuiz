@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MELPersonalityQuiz/static/css/main.26b490a6.css",
-    "main.js": "/MELPersonalityQuiz/static/js/main.73aa3234.js",
+    "main.js": "/MELPersonalityQuiz/static/js/main.801bcbc1.js",
     "static/media/QuestionImage.JPG": "/MELPersonalityQuiz/static/media/QuestionImage.e3bc7a2c2ffb0b278d57.JPG",
     "static/media/titleImage.jpg": "/MELPersonalityQuiz/static/media/titleImage.45bd9fd59bb8b23fb80a.jpg",
     "static/media/background1.png": "/MELPersonalityQuiz/static/media/background1.fda59121d2b54b66410d.png",
@@ -13,10 +13,10 @@
     "static/media/linktree.png": "/MELPersonalityQuiz/static/media/linktree.70d3703b9e28aeef6c22.png",
     "index.html": "/MELPersonalityQuiz/index.html",
     "main.26b490a6.css.map": "/MELPersonalityQuiz/static/css/main.26b490a6.css.map",
-    "main.73aa3234.js.map": "/MELPersonalityQuiz/static/js/main.73aa3234.js.map"
+    "main.801bcbc1.js.map": "/MELPersonalityQuiz/static/js/main.801bcbc1.js.map"
   },
   "entrypoints": [
     "static/css/main.26b490a6.css",
-    "static/js/main.73aa3234.js"
+    "static/js/main.801bcbc1.js"
   ]
 }
