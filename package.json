@@ -2,7 +2,7 @@
   "name": "mel-personality-test",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://jpetrasek1217.github.io/MELpersonalityQuiz",
+  "homepage": "http://jpetrasek1217.github.io/MELPersonalityQuiz",
   "dependencies": {
     "cra-template": "1.2.0",
     "react": "^18.2.0",
