@@ -71,7 +71,7 @@ function HomePage(){
 
     return(
         <div className={classes.homePageContainer}>
-        <h1 className={classes.HomeTitle}>What MEL Exec are you?</h1>
+        <h1 className={classes.HomeTitle}>Which MEL Exec are you?</h1>
         <img className={classes.titleImage} src={titleImage} />
                 <Link className={classes.Link} to='/quiz'>
                     <button className={classes.StartButton} onClick={handleStart} onMouseEnter={changeStyleStart} onMouseOut={changeStyleStartAgain}>
