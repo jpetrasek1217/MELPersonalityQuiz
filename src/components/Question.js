@@ -67,7 +67,7 @@ function Question() {
                     } else {
                         navigate(`/result/ICON`);
                     }
-                } 
+                } else {
                     if(player.toxic > player.nutric){
                         navigate(`/result/ICAT`);
                     } else {
@@ -75,7 +75,7 @@ function Question() {
                     }
                 }
             }
-
+        }
             const updatePlayer = () => {
                 if (currentQ.extravertAdderA){
                     setPlayer(prevPlayer => ({
@@ -157,7 +157,7 @@ function Question() {
                     } else {
                         navigate(`/result/ICON`);
                     }
-                } 
+                } else {
                     if(player.toxic > player.nutric){
                         navigate(`/result/ICAT`);
                     } else {
@@ -165,7 +165,7 @@ function Question() {
                     }
                 }
             }
-
+        }
             
     const updatePlayer = () => {
         if (currentQ.extravertAdderB){
