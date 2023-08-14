@@ -41,7 +41,7 @@
     background-color: #230660;
     font-family: 'Basier Circle', sans-serif;
     color: #e0f0ff;
-    font-size: 1.75em;
+    font-size: 1.5em;
     position: relative;
     align-items: center;
     justify-content: center;
@@ -52,7 +52,7 @@
 
 @media(max-width: 767px){
     .answer{
-        font-size: 1.1em;
+        font-size: 1.0em;
         width: 75vw;
     }
 

@@ -1,165 +1,255 @@
 const QuizBank = [
     {
-        question: "You arrive at McMaster Extra Life's General Meeting! What are you doing as soon as the doors open?",
+        question: "You have just arrived at McMaster Extra Life's general meeting! What will be the first thing you do as soon as the doors open?",
         id: 0,
-        answerA: "Join a group playing my favourite board game",
+        answerA: "Join a group playing your favourite board game",
         extravertAdderA: 1,
         idNextQuestionA: 1,
-        answerB: "Quietly stand and watch people play smash",
+        answerB: "Quietly stand and watch people play Smash",
         introvertAdderB: 1,
-        idNextQuestionB: 2
+        idNextQuestionB: 2,
+        answerC: "",
+        answerD: ""
     },
     {
         question: "The board game is going well, you’re winning! What are you thinking inside?",
         id: 1,
-        answerA: "Wow these guys are complete suckers XD",
+        answerA: "What's the coolest combo I can pull off to win?",
         competitiveAdderA: 1,
-        toxicAdderA: 1,
+        answerB: "Wow these guys are complete suckers XD",
+        toxicAdderB: 1,
+        answerC: "I hope everyone else is having fun",
+        nutricAdderC: 1,
+        answerD: "Time for the biggest, most worthless throw of my career",
+        casualAdderD: 1,
         idNextQuestionA: 3,
-        answerB: "I’ll throw a bit so they have some fun too",
-        casualAdderB: 1,
-        nutricAdderB: 1,
-        idNextQuestionB: 3
+        idNextQuestionB: 3,
+        idNextQuestionC: 3,
+        idNextQuestionD: 3,
     },
     {
         question: "You are invited to play after a players leaves to get food. What do you do?",
         id: 2,
         answerA: "Insist on watching",
-        casualAdderA: 1,
         nutricAdderA: 1,
-        idNextQuestionA: 3,
+
         answerB: "Join in the closest seat",
-        competitiveAdderB:1,
-        toxicAdderB:1,
-        idNextQuestionB: 3
+        casualAdderB: 1,
+
+        answerC: "Take their spot after asking",
+        competitiveAdderC: 1,
+
+        answerD: "Take their spot without asking",
+        toxicAdderD: 1,
+        
+        idNextQuestionA: 4,
+        idNextQuestionB: 4,
+        idNextQuestionC: 4,
+        idNextQuestionD: 4
+    },
+    {
+        question: "I forgot to ask, what board game are you playing?",
+        id: 3,
+        answerA: "Something chill and friendly for beginners",
+        casualAdderA: 1,
+        idNextQuestionA: 5,
+        answerB: "Something competitive with a steep learning curve",
+        competitiveAdderB: 1,
+        idNextQuestionB: 5,
+        answerC: "",
+        answerD: ""
+    },
+    {
+        question: "One of the players who died first every round hits his controller really hard against the table. What are you’re thoughts?",
+        id: 4,
+        answerA: "Call out his toxicity and offer support",
+        nutricAdderA: 1,
+        idNextQuestionA: 5,
+        answerB: "Do your best to hold in your laughter",
+        toxicAdderB: 1,
+        idNextQuestionB: 5,
+        answerC: "",
+        answerD: ""
     },
     {
         question: "The game is over and you get hungry, time for some food! The line is really long, do you...",
-        id: 3,
-        answerA: "Cut in front of someone not paying attention",
-        toxicAdderA: 2,
-        idNextQuestionA: 4,
-        answerB: "Patiently go to the back of the line",
-        nutricAdderB: 2,
-        idNextQuestionB: 5,
-    },
-    {
-        question: "The person you cut in front of notices you and says a corny pickup line. How do you respond?",
-        id: 4,
-        answerA: "Ask if they’re a parking ticket",
-        extravertAdderA: 2,
-        idNextQuestionA: 6,
-        answerB: "Awkwardly smile and say nothing",
-        introvertAdderB: 2,
-        idNextQuestionB: 8,
-    },
-    {
-        question: "A cute person shamelessly cuts in front of you as you’re texting someone. What do you say?",
         id: 5,
-        answerA: "You just look at them, too nervous to say anything",
-        introvertAdderA: 2,
-        idNextQuestionA: 8,
-        answerB: "Hey beautiful are you from Tennessee?",
-        extravertAdderB: 2,
-        idNextQuestionB: 7
+        answerA: "I’m not dealing with this right now",
+        toxicAdderA: 2,
+        idNextQuestionA: 6,
+        answerB: "Patiently go to te back of the line",
+        nutricAdderB: 2,
+        idNextQuestionB: 7,
+        answerC: "",
+        answerD: ""
     },
     {
-        question: "They laugh a little, and respond with an even cornier line. Response?",
+        question: "You run into someone while looking around for something else to do and they start flirting with you! What do you do?",
         id: 6,
-        answerA: "Laugh at their comeback & say it was really funny",
-        casualAdderA: 2,
-        idNextQuestionA: 9,
-        answerB: "Keep firing corny pickup lines at each other until you both run out",
-        competitiveAdderB: 2,
-        idNextQuestionB: 9
-    },
-    {
-        question: "They laugh a little, and ask if you’re a parking ticket. Response?",
-        id: 7,
-        answerA: "Laugh at their comeback & say it was really funny",
-        casualAdderA: 2,
-        idNextQuestionA: 9,
-        answerB: "Keep firing corny pickup lines at each other until you both run out",
-        competitiveAdderB: 2,
-        idNextQuestionB: 9
-    },
-    {
-        question: "As you vibe, a minievent starts! What do you do?",
-        id: 8,
-        answerA: "Run out of line to join the fun!",
-        idNextQuestionA: 12,
-        answerB: "Stay in the line & daydream about your food",
-        idNextQuestionB: 13
-    },
-    {
-        question: "As you vibe, a minievent starts! What do you do?",
-        id: 9,
-        answerA: "Run out of line to join the fun!",
-        introvertAdderA: -2,
+        answerA: "Flirt back",
         extravertAdderA: 2,
-        casualAdderA: -1,
-        competitiveAdderA: 1,
+        
+        answerB: "Laugh a bit and make some small talk",
+        nutricAdderB: 2,
+
+        answerC: "Ignore/pretend you didn't hear it",
+        introvertAdderC: 2,
+
+        answerD: "Shut that down immediately",
+        toxicAdderD: 2,
+                
         idNextQuestionA: 10,
-        answerB: "stay in the line & daydream about your food",
-        introvertAdderB: 2,
-        extravertAdderB: -2,
-        casualAdderB: 1,
-        competitiveAdderB: -1,
-        idNextQuestionB: 11
+        idNextQuestionB: 10,
+        idNextQuestionC: 11,
+        idNextQuestionD: 11
     },
     {
-        question: "The minievent is to cut a piece of chocolate out of hundreds of layers of newspaper wrapped around it. Your groupmate has a swiss army knife you can use instead of the butterknife given. What do you do?",
+        question: "Someone shamelessly cuts in front of you in line as you’re texting someone. What do you say?",
+        id: 7,
+        answerA: "Bombastic sideye",
+        introvertAdderA: 2,
+        
+        answerB: "Get ready to swing",
+        toxicAdderA: 2,
+
+        answerC: "Remind them  there’s a line, but assume they didnt do it on purpose",
+        nutricAdderC: 2,
+
+        answerD: "Start making small talk with them",
+        extravertAdderD: 2,
+        
+        idNextQuestionA: 11,
+        idNextQuestionB: 11,
+        idNextQuestionC: 10,
+        idNextQuestionD: 10,
+    },
+    {
+        question: "As you wait, a minievent starts! What do you do?",
         id: 10,
-        answerA: "Use swiss army knife",
-        toxicAdderA: 2,
-        idNextQuestionA: 15,
-        answerB: "Use butterknife",
-        nutricAdderB: 2,
-        idNextQuestionB: 15
+        answerA: "Join the minievent",
+        competitiveAdderA: 2,
+        idNextQuestionA: 12,
+        answerB: "Stay away and daydream about food",
+        casualAdderA: 2,
+        idNextQuestionB: 13,
+        answerC: "",
+        answerD: ""
     },
     {
-        question: "You finally get to the start of the line, what are you ordering?",
+        question: "As you wait, a minievent starts! What do you do?",
         id: 11,
-        answerA: "SPiCY RAMEN!!",
-        toxicAdderA: 2,
-        idNextQuestionA: 15,
-        answerB: "Rolled ice cream from Diced Ice!",
-        nutricAdderB: 2,
-        idNextQuestionB: 15
+        answerA: "Join the minievent",
+        competitiveAdderA: 2,
+        idNextQuestionA: 14,
+        answerB: "Stay away and daydream about food",
+        casualAdderA: 2,
+        idNextQuestionB: 15,
+        answerC: "",
+        answerD: ""
     },
     {
         question: "The minievent is to cut a piece of chocolate out of hundreds of layers of newspaper wrapped around it. Your groupmate has a swiss army knife you can use instead of the butterknife given. What do you do?",
         id: 12,
-        answerA: "Use swiss army knife",
+
+        answerA: "Give the chocolate to someone else",
+        casualAdderA: 2,
+        
+        answerB: "Use swiss army knife",
+        toxicAdderB: 2,
+
+        answerC: "Use butterknife",
+        nutricAdderC: 2,
+        
+        answerD: "Stick to the butterknife given, but find other sneakier ways of gaming the system.",
+        competitiveAdderD: 2,
+
+        idNextQuestionA: 16,
+        idNextQuestionB: 16,
+        idNextQuestionC: 16,
+        idNextQuestionD: 16
+    },
+    {
+        question: "You finally get around to getting food. What are you ordering?",
+        id: 13,
+        answerA: "Spicy ramen with all topings + egg!",
         toxicAdderA: 2,
-        idNextQuestionA: 14,
-        answerB: "Use butterknife",
+        idNextQuestionA: 16,
+        answerB: "Rolled ice cream from Diced Ice!",
         nutricAdderB: 2,
-        idNextQuestionB: 14
+        idNextQuestionB: 16,
+        answerC: "",
+        answerD: ""
+    },
+    {
+        question: "the minievent is to cut a piece of chocolate out of hundreds of layers of newspaper wrapped around it. Your groupmate has a swiss army knife you can use instead of the butterknife given. What do you do?",
+        id: 14,
+        answerA: "Give the chocolate to someone else",
+        casualAdderA: 2,
+        
+        answerB: "Use swiss army knife",
+        toxicAdderB: 2,
+
+        answerC: "Use butterknife",
+        nutricAdderC: 2,
+        
+        answerD: "Stick to the butterknife given, but find other sneakier ways of gaming the system.",
+        competitiveAdderD: 2,
+
+        idNextQuestionA: 16,
+        idNextQuestionB: 16,
+        idNextQuestionC: 16,
+        idNextQuestionD: 16
     },
     {
         question: "You finally get to the start of the line, what are you ordering?",
-        id: 13,
-        answerA: "SPiCY RAMEN!!",
+        id: 15,
+        answerA: "Spicy ramen with all topings + egg!",
         toxicAdderA: 2,
-        idNextQuestionA: 14,
+        idNextQuestionA: 16,
         answerB: "Rolled ice cream from Diced Ice!",
         nutricAdderB: 2,
-        idNextQuestionB: 14
+        idNextQuestionB: 16,
+        answerC: "",
+        answerD: ""
     },
+
     {
-        question: "The minievent ends there’s a few minutes left of General Meeting. What do you do?",
-        id: 14,
+        question: "The minievent ends, there’s a few minutes left of General Meeting. What do you do?",
+        id: 16,
+
         answerA: "Capture the memory at the photobooth",
         casualAdderA: 2,
-        idNextQuestionA: 15,
-        answerB: "play one last game of Mario-Kart",
-        competitiveAdderB: 2,
-        idNextQuestionB: 15
+        
+        answerB: "Leave without saying goodbye",
+        toxicAdderB: 2,
+
+        answerC: "Play one last game of switch games",
+        competitiveAdderC: 2,
+        
+        answerD: "Help cleanup",
+        nutricAdderC: 2,
+
+        idNextQuestionA: 17,
+        idNextQuestionB: 17,
+        idNextQuestionC: 17,
+        idNextQuestionD: 17
     },
+
+    {
+        question: "Thanks for doing our Personality Quiz! Be sure to check us out at Clubfest and General Meeting in September!",
+        id: 17,
+
+        answerA: "See my MEL Exec",
+        answerB: "",
+        answerC: "",
+        answerD: "",
+
+        idNextQuestionA: 18
+    },
+
     {
         question: "N/A",
-        id: 15
+        id: 18,
     }
 ]
 

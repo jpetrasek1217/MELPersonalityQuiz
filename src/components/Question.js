@@ -37,44 +37,15 @@ function Question() {
         console.log([player.introvert, player.extravert, player.casual, player.competitive, player.toxic, player.nutric]);
         console.log("added stuff from question" + currentQ.id);
 
-        if(progress < 84) {
-            setProgress(progress + 12);
+        if(progress < 91) {
+            setProgress(progress + 10);
         }
         
-        if (currentQ.idNextQuestionA !== 15){
+        if (currentQ.idNextQuestionA !== 18){
             const nextQ = QuizBank.find(question => question.id === currentQ.idNextQuestionA);
             setCurrentQ(nextQ)
         } else {
-
-            if (player.extravert > player.introvert){
-                if (player.competitive > player.casual){
-                    if(player.toxic > player.nutric){
-                        navigate(`/result/ECOT`);
-                    } else {
-                        navigate(`/result/ECON`);
-                    }
-                } else {
-                    if(player.toxic > player.nutric){
-                        navigate(`/result/ECAT`);
-                    } else {
-                        navigate(`/result/ECAN`);
-                    }
-                }
-            } else {
-                if (player.competitive > player.casual){
-                    if(player.toxic > player.nutric){
-                        navigate(`/result/ICOT`);
-                    } else {
-                        navigate(`/result/ICON`);
-                    }
-                } else {
-                    if(player.toxic > player.nutric){
-                        navigate(`/result/ICAT`);
-                    } else {
-                        navigate(`/result/ICAN`);
-                    }
-                }
-            }
+            showResult();
         }
             const updatePlayer = () => {
                 if (currentQ.extravertAdderA){
@@ -128,43 +99,15 @@ function Question() {
 
         console.log("added stuff from question" + currentQ.id);
         
-        if(progress < 84) {
-            setProgress(progress + 12);
+        if(progress < 91) {
+            setProgress(progress + 10);
         }
-
-        if (currentQ.idNextQuestionB !== 15){
+        
+        if (currentQ.idNextQuestionB !== 18){
             const nextQ = QuizBank.find(question => question.id === currentQ.idNextQuestionB);
             setCurrentQ(nextQ);
         } else {
-            if (player.extravert > player.introvert){
-                if (player.competitive > player.casual){
-                    if(player.toxic > player.nutric){
-                        navigate(`/result/ECOT`);
-                    } else {
-                        navigate(`/result/ECON`);
-                    }
-                } else {
-                    if(player.toxic > player.nutric){
-                        navigate(`/result/ECAT`);
-                    } else {
-                        navigate(`/result/ECAN`);
-                    }
-                }
-            } else {
-                if (player.competitive > player.casual){
-                    if(player.toxic > player.nutric){
-                        navigate(`/result/ICOT`);
-                    } else {
-                        navigate(`/result/ICON`);
-                    }
-                } else {
-                    if(player.toxic > player.nutric){
-                        navigate(`/result/ICAT`);
-                    } else {
-                        navigate(`/result/ICAN`);
-                    }
-                }
-            }
+            showResult();
         }
             
     const updatePlayer = () => {
@@ -210,6 +153,161 @@ function Question() {
     }
 
 
+    function handleClickC(){
+        console.log([player.introvert, player.extravert, player.casual, player.competitive, player.toxic, player.nutric]);
+
+
+
+        console.log("added stuff from question" + currentQ.id);
+        
+        if(progress < 91) {
+            setProgress(progress + 10);
+        }
+        
+        if (currentQ.idNextQuestionC !== 18){
+            const nextQ = QuizBank.find(question => question.id === currentQ.idNextQuestionC);
+            setCurrentQ(nextQ);
+        } else {
+            showResult();
+        }
+            
+    const updatePlayer = () => {
+        if (currentQ.extravertAdderC){
+            setPlayer(prevPlayer => ({
+                ...prevPlayer,
+                extravert: prevPlayer.extravert + currentQ.extravertAdderC
+            }));
+        }
+        if (currentQ.introvertAdderC){
+            setPlayer(prevPlayer => ({
+                ...prevPlayer,
+                introvert: prevPlayer.introvert + currentQ.introvertAdderC
+            }));
+        }
+        if (currentQ.competitiveAdderC){
+            setPlayer(prevPlayer => ({
+                ...prevPlayer,
+                competitive: prevPlayer.competitive + currentQ.competitiveAdderC
+            }));
+        }
+        if (currentQ.casualAdderC){
+            setPlayer(prevPlayer => ({
+                ...prevPlayer,
+                casual: prevPlayer.casual + currentQ.casualAdderC
+            }));
+        }
+        if (currentQ.toxicAdderC){
+            setPlayer(prevPlayer => ({
+                ...prevPlayer,
+                toxic: prevPlayer.toxic + currentQ.toxicAdderC
+            }));
+        }
+        if (currentQ.nutricAdderC){
+            setPlayer(prevPlayer => ({
+                ...prevPlayer,
+                nutric: prevPlayer.nutric + currentQ.nutricAdderC
+            }));
+        }
+    }
+            updatePlayer();
+        console.log([player.introvert, player.extravert, player.casual, player.competitive, player.toxic, player.nutric]);
+    }
+
+
+    function handleClickD(){
+        console.log([player.introvert, player.extravert, player.casual, player.competitive, player.toxic, player.nutric]);
+
+
+
+        console.log("added stuff from question" + currentQ.id);
+        
+        if(progress < 91) {
+            setProgress(progress + 10);
+        }
+        
+        if (currentQ.idNextQuestionD !== 18){
+            const nextQ = QuizBank.find(question => question.id === currentQ.idNextQuestionD);
+            setCurrentQ(nextQ);
+        } else {
+            showResult();
+        }
+            
+    const updatePlayer = () => {
+        if (currentQ.extravertAdderD){
+            setPlayer(prevPlayer => ({
+                ...prevPlayer,
+                extravert: prevPlayer.extravert + currentQ.extravertAdderD
+            }));
+        }
+        if (currentQ.introvertAdderD){
+            setPlayer(prevPlayer => ({
+                ...prevPlayer,
+                introvert: prevPlayer.introvert + currentQ.introvertAdderD
+            }));
+        }
+        if (currentQ.competitiveAdderD){
+            setPlayer(prevPlayer => ({
+                ...prevPlayer,
+                competitive: prevPlayer.competitive + currentQ.competitiveAdderD
+            }));
+        }
+        if (currentQ.casualAdderD){
+            setPlayer(prevPlayer => ({
+                ...prevPlayer,
+                casual: prevPlayer.casual + currentQ.casualAdderD
+            }));
+        }
+        if (currentQ.toxicAdderD){
+            setPlayer(prevPlayer => ({
+                ...prevPlayer,
+                toxic: prevPlayer.toxic + currentQ.toxicAdderD
+            }));
+        }
+        if (currentQ.nutricAdderD){
+            setPlayer(prevPlayer => ({
+                ...prevPlayer,
+                nutric: prevPlayer.nutric + currentQ.nutricAdderD
+            }));
+        }
+    }
+            updatePlayer();
+        console.log([player.introvert, player.extravert, player.casual, player.competitive, player.toxic, player.nutric]);
+    }
+
+
+    function showResult(){
+        if (player.extravert > player.introvert){
+            if (player.competitive > player.casual){
+                if(player.toxic > player.nutric){
+                    navigate(`/result/ECOT`);
+                } else {
+                    navigate(`/result/ECON`);
+                }
+            } else {
+                if(player.toxic > player.nutric){
+                    navigate(`/result/ECAT`);
+                } else {
+                    navigate(`/result/ECAN`);
+                }
+            }
+        } else {
+            if (player.competitive > player.casual){
+                if(player.toxic > player.nutric){
+                    navigate(`/result/ICOT`);
+                } else {
+                    navigate(`/result/ICON`);
+                }
+            } else {
+                if(player.toxic > player.nutric){
+                    navigate(`/result/ICAT`);
+                } else {
+                    navigate(`/result/ICAN`);
+                }
+            }
+        }
+    }
+
+
     return(
     <div className={classes.QuestionContainer}>
         <h1 className={classes.QuestionText}>{currentQ.question}</h1>
@@ -219,8 +317,10 @@ function Question() {
         <img src={questionImage} alt='Image to support question' className={classes.questionImage} />
         <div className={classes.buttonsContainer}>
                 <div className={classes.Button}>
-                    <button className={classes.answer} id='buttonA' onClick={handleClickA}>{currentQ.answerA}</button>
-                    <button className={classes.answer} id='buttonB' onClick={handleClickB}>{currentQ.answerB}</button>
+                    {currentQ.answerA && <button className={classes.answer} id='buttonA' onClick={handleClickA}>{currentQ.answerA}</button>}
+                    {currentQ.answerB && <button className={classes.answer} id='buttonB' onClick={handleClickB}>{currentQ.answerB}</button>}
+                    {currentQ.answerC && <button className={classes.answer} id='buttonC' onClick={handleClickC}>{currentQ.answerC}</button>}
+                    {currentQ.answerD && <button className={classes.answer} id='buttonD' onClick={handleClickD}>{currentQ.answerD}</button>}
                 </div>
         </div>
     </div>
