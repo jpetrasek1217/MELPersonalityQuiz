@@ -17,15 +17,15 @@ function App() {
   return (
     <Routes>
       <Route path="/MelPersonalityQuiz" element={<HomePage />} />
-      <Route path="/quiz" element={<Quiz />} />
-      <Route path="/result/ICAT" element={<ICAT />} />
-      <Route path="/result/ICAN" element={<ICAN />} />
-      <Route path="/result/ICOT" element={<ICOT />} />
-      <Route path="/result/ICON" element={<ICON />} />
-      <Route path="/result/ECAT" element={<ECAT />} />
-      <Route path="/result/ECAN" element={<ECAN />} />
-      <Route path="/result/ECOT" element={<ECOT />} />
-      <Route path="/result/ECON" element={<ECON />} />
+      <Route path="/MelPersonalityQuiz/quiz" element={<Quiz />} />
+      <Route path="/MelPersonalityQuiz/result/ICAT" element={<ICAT />} />
+      <Route path="/MelPersonalityQuiz/result/ICAN" element={<ICAN />} />
+      <Route path="/MelPersonalityQuiz/result/ICOT" element={<ICOT />} />
+      <Route path="/MelPersonalityQuiz/result/ICON" element={<ICON />} />
+      <Route path="/MelPersonalityQuiz/result/ECAT" element={<ECAT />} />
+      <Route path="/MelPersonalityQuiz/result/ECAN" element={<ECAN />} />
+      <Route path="/MelPersonalityQuiz/result/ECOT" element={<ECOT />} />
+      <Route path="/MelPersonalityQuiz/result/ECON" element={<ECON />} />
     </Routes>       
   );
 }
