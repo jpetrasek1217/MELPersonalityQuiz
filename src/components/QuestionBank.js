@@ -33,7 +33,7 @@ const QuizBank = [
         answerA: "Insist on watching",
         nutricAdderA: 1,
 
-        answerB: "Join in the closest seat",
+        answerB: "Get food with the others",
         casualAdderB: 1,
 
         answerC: "Take their spot after asking",
@@ -60,7 +60,7 @@ const QuizBank = [
         answerD: ""
     },
     {
-        question: "One of the players who died first every round hits his controller really hard against the table. What are you’re thoughts?",
+        question: "One of the players who died first every round hits his controller really hard against the table. What are your thoughts?",
         id: 4,
         answerA: "Call out his toxicity and offer support",
         nutricAdderA: 1,
@@ -77,7 +77,7 @@ const QuizBank = [
         answerA: "I’m not dealing with this right now",
         toxicAdderA: 2,
         idNextQuestionA: 6,
-        answerB: "Patiently go to te back of the line",
+        answerB: "Patiently go to the back of the line",
         nutricAdderB: 2,
         idNextQuestionB: 7,
         answerC: "",
@@ -95,7 +95,7 @@ const QuizBank = [
         answerC: "Ignore/pretend you didn't hear it",
         introvertAdderC: 2,
 
-        answerD: "Shut that down immediately",
+        answerD: "Shut it down immediately",
         toxicAdderD: 2,
                 
         idNextQuestionA: 10,
@@ -157,7 +157,7 @@ const QuizBank = [
         answerB: "Use swiss army knife",
         toxicAdderB: 2,
 
-        answerC: "Use butterknife",
+        answerC: "Use butterknife the ol' fashion way",
         nutricAdderC: 2,
         
         answerD: "Stick to the butterknife given, but find other sneakier ways of gaming the system.",
@@ -171,7 +171,7 @@ const QuizBank = [
     {
         question: "You finally get around to getting food. What are you ordering?",
         id: 13,
-        answerA: "Spicy ramen with all topings + egg!",
+        answerA: "Spicy ramen with all toppings + egg!",
         toxicAdderA: 2,
         idNextQuestionA: 16,
         answerB: "Rolled ice cream from Diced Ice!",
@@ -203,7 +203,7 @@ const QuizBank = [
     {
         question: "You finally get to the start of the line, what are you ordering?",
         id: 15,
-        answerA: "Spicy ramen with all topings + egg!",
+        answerA: "Spicy ramen with all toppings + egg!",
         toxicAdderA: 2,
         idNextQuestionA: 16,
         answerB: "Rolled ice cream from Diced Ice!",
@@ -249,7 +249,7 @@ const QuizBank = [
 
     {
         question: "N/A",
-        id: 18,
+        id: 18
     }
 ]
 

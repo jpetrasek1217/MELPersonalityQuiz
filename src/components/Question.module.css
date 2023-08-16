@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 3vw;
+    padding: 2vw;
     margin: 7vh 5vw 0;
     z-index: 0;
 }
@@ -10,19 +10,20 @@
 .QuestionText{
     text-align: center;
     font-size: 2em;
-    margin-top: 2vh;
-    margin-bottom: 2vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    
 }
 
 .questionImage{
     display: flex;
-    max-height: 28vh;
-    padding: 0 7.5vw;
-    margin-bottom: 2vh;
+    max-width: 55vh;
+    padding: 0;
+    margin-bottom: 0vh;
 }
 
 .Button{
-    margin: 2vw;
+    margin: 0 1em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -35,13 +36,13 @@
     border-radius: 1.25em;
     outline: none;
     display: flex;
-    width: 60vw;
+    width: 35vw;
     height: 4em;
     padding: 1vw;
     background-color: #230660;
     font-family: 'Basier Circle', sans-serif;
     color: #e0f0ff;
-    font-size: 1.5em;
+    font-size: 1.2em;
     position: relative;
     align-items: center;
     justify-content: center;
@@ -50,10 +51,23 @@
     box-shadow: none;
 }
 
+.ImageAndAnswers{
+    display: flex;
+    margin: 2em;
+    flex-direction: row;
+    align-items: center;
+}
+
 @media(max-width: 767px){
     .answer{
         font-size: 1.0em;
         width: 75vw;
+    }
+
+    .ImageAndAnswers{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .QuestionText{
@@ -81,7 +95,7 @@
 .buttonsContainer{
     display: flex;
     align-items: center;
-    margin: 1vw;
+    margin: 0vw;
 }
 
 .background{

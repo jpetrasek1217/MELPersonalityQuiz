@@ -26,7 +26,7 @@
 
 .headerText{
     text-align: center;
-    font-size: 0.9em;
+    font-size: 0.75em;
     display: flex;
     color: #230660;
     height: 7vh;
@@ -55,7 +55,7 @@
     }
 
     .headerText{
-        font-size: 2em;
+        font-size: 1.5em;
     }
 }
 

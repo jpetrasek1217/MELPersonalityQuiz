@@ -1,7 +1,21 @@
 import React from 'react';
 import classes from './Question.module.css';
-import questionImage from './assets/QuestionImage.JPG';
-
+import image0 from './assets/0.png';
+import image1 from './assets/1.png';
+import image2 from './assets/2.png';
+import image3 from './assets/3.png';
+import image4 from './assets/4.jpg';
+import image5 from './assets/5.png';
+import image6 from './assets/6.png';
+import image7 from './assets/7.png';
+import image10 from './assets/10.png';
+import image11 from './assets/11.png';
+import image12 from './assets/12.jpg';
+import image13 from './assets/13.png';
+import image14 from './assets/14.jpg';
+import image15 from './assets/15.png';
+import image16 from './assets/16.png';
+import image17 from './assets/17.png';
 import QuizBank from './QuestionBank';
 import { useState, useEffect } from 'react';
 import { useNavigate} from 'react-router-dom';
@@ -22,6 +36,8 @@ function Question() {
     let navigate = useNavigate();
     const [currentQ, setCurrentQ] = useState("");
     const [progress, setProgress] = useState("");
+
+    
 
 
 
@@ -279,34 +295,69 @@ function Question() {
         if (player.extravert > player.introvert){
             if (player.competitive > player.casual){
                 if(player.toxic > player.nutric){
-                    navigate(`/result/ECOT`);
+                    navigate(`/MelPersonalityQuiz/result/ECOT`);
                 } else {
-                    navigate(`/result/ECON`);
+                    navigate(`/MelPersonalityQuiz/result/ECON`);
                 }
             } else {
                 if(player.toxic > player.nutric){
-                    navigate(`/result/ECAT`);
+                    navigate(`/MelPersonalityQuiz/result/ECAT`);
                 } else {
-                    navigate(`/result/ECAN`);
+                    navigate(`/MelPersonalityQuiz/result/ECAN`);
                 }
             }
         } else {
             if (player.competitive > player.casual){
                 if(player.toxic > player.nutric){
-                    navigate(`/result/ICOT`);
+                    navigate(`/MelPersonalityQuiz/result/ICOT`);
                 } else {
-                    navigate(`/result/ICON`);
+                    navigate(`/MelPersonalityQuiz/result/ICON`);
                 }
             } else {
                 if(player.toxic > player.nutric){
-                    navigate(`/result/ICAT`);
+                    navigate(`/MelPersonalityQuiz/result/ICAT`);
                 } else {
-                    navigate(`/result/ICAN`);
+                    navigate(`/MelPersonalityQuiz/result/ICAN`);
                 }
             }
         }
     }
 
+    function questionImage(){
+        if (currentQ.id === 0){
+            return image0;
+        }  if (currentQ.id === 1){
+            return image1;
+        } if (currentQ.id === 2){
+            return image2;
+        }  if (currentQ.id === 3){
+            return image3;
+        }  if (currentQ.id === 4){
+            return image4;
+        }  if (currentQ.id === 5){
+            return image5;
+        } if (currentQ.id === 6){
+            return image6;
+        }  if (currentQ.id === 7){
+            return image7;
+        }  if (currentQ.id === 10){
+            return image10;
+        }  if (currentQ.id === 11){
+            return image11;
+        }  if (currentQ.id === 12){
+            return image12;
+        } if (currentQ.id === 13){
+            return image13;
+        }  if (currentQ.id === 14){
+            return image14;
+        }  if (currentQ.id === 15){
+            return image15;
+        }  if (currentQ.id === 16){
+            return image16;
+        } if (currentQ.id === 17){
+            return image17;
+        } 
+    }
 
     return(
     <div className={classes.QuestionContainer}>
@@ -314,7 +365,8 @@ function Question() {
         <div className={classes.progressBarContainer}>
           <div className={classes.movingBackground} style={{width: `${progress}vw`}}></div>
         </div>
-        <img src={questionImage} alt='Image to support question' className={classes.questionImage} />
+        <div className={classes.ImageAndAnswers}>
+        <img src={questionImage()} alt={`Question ${currentQ.id}`} className={classes.questionImage} />
         <div className={classes.buttonsContainer}>
                 <div className={classes.Button}>
                     {currentQ.answerA && <button className={classes.answer} id='buttonA' onClick={handleClickA}>{currentQ.answerA}</button>}
@@ -323,6 +375,8 @@ function Question() {
                     {currentQ.answerD && <button className={classes.answer} id='buttonD' onClick={handleClickD}>{currentQ.answerD}</button>}
                 </div>
         </div>
+        </div>
+        
     </div>
         
     );

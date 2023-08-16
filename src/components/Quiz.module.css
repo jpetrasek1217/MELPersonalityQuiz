@@ -4,3 +4,10 @@ footer{
     flex-direction: column;
 }
 
+.everything{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}

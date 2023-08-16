@@ -8,17 +8,19 @@ import classes from "./Quiz.module.css"
 function Quiz(){
 
     return(
-        <>
+        <div className={classes.everything}>
+        <div className={classes.headerAndMain}>
             <header>
                 <Header />
             </header>
             <main>
                 <Question />
             </main>
+        </div>
             <footer>
                 <Footer />
             </footer>
-        </>
+        </div>
     );
 
 }

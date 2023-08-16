@@ -11,10 +11,10 @@ function Header(){
     const location = useLocation();
 
     function handleClick() {
-        if (location.pathname === "/quiz"){
+        if (location.pathname === "/MelPersonalityQuiz/"){
             window.location.reload();
         } else {
-            navigate("/quiz"); 
+            navigate("/MelPersonalityQuiz/"); 
         }
     }
 

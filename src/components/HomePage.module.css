@@ -2,11 +2,17 @@
     display: flex;
     position: relative;
     flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+.notFooter{
+    display: flex;
+    position: relative;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 4vh;
-    margin-left: 4vh;
-    margin-right: 4vh;
+    margin: 3em;
 }
 
 .StartButton{
@@ -72,22 +78,88 @@
 }
 
 .titleImage{
-    max-width: 50vw;
+    max-width: 40vw;
     height: auto;
-    margin: 2vw 0;
+    margin: 1vw 0;
 }
 
-.IconStyle{
-    height: 4vh;
-    margin-right: 1vw;
-    filter: brightness(39) hue-rotate(-75deg);
-}
-.IconStyleActive{
-    height: 4vh;
-    margin-right: 1vw;
-    filter: none;
+.HomeTitle{
+    font-size: 2.5em;
 }
 
 .Link{
     text-decoration: none;
+}
+
+.titleFooter{
+    margin-top: auto;
+}
+
+.body{
+    min-height: 100vh;
+    flex-direction: column;
+    display: flex;
+}
+
+.buttonIcon{
+    width: 1.5em;
+    margin-right: 0.5em;
+    filter: brightness(39) hue-rotate(-75deg);
+}
+
+.StartButton:hover .buttonIcon{
+    filter: none;
+}
+
+.ShareButton:hover .buttonIcon{
+    filter: none;
+}
+
+@media(max-width: 767px){
+    .HomeTitle{
+        font-size: 1.5em;
+    }
+
+    .StartButton{
+        margin: 0.5em;
+        border: 0.15em solid rgba(224, 240, 255, 0.2);
+        border-radius: 1.25em;
+        outline: none;
+        display: flex;
+        width: 60vw;
+        height: 4em;
+        padding: 1vw;
+        background-color: #230660;
+        font-family: 'Basier Circle', sans-serif;
+        color: #e0f0ff;
+        font-size: 1em;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        filter: drop-shadow(0.5rem 0.5rem 0.25rem #000000);
+        transition: transform 0.2s ease;
+        box-shadow: none;
+    }
+
+    .ShareButton{
+        margin: 0.5em;
+        border: 0.15em solid rgba(224, 240, 255, 0.2);
+        border-radius: 1.25em;
+        outline: none;
+        display: flex;
+        width: 40vw;
+        height: 4em;
+        padding: 1vw;
+        background-color: #230660;
+        font-family: 'Basier Circle', sans-serif;
+        color: #e0f0ff;
+        font-size: 1em;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        filter: drop-shadow(0.5rem 0.5rem 0.25rem #000000);
+        transition: transform 0.2s ease;
+        box-shadow: none;
+    }
+    
 }
