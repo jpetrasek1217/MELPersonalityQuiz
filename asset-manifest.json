@@ -1,9 +1,32 @@
 {
   "files": {
-    "main.css": "/MelPersonalityQuiz/static/css/main.f924097b.css",
-    "main.js": "/MelPersonalityQuiz/static/js/main.ff73d440.js",
-    "static/media/QuestionImage.JPG": "/MelPersonalityQuiz/static/media/QuestionImage.e3bc7a2c2ffb0b278d57.JPG",
+    "main.css": "/MelPersonalityQuiz/static/css/main.46bcaa75.css",
+    "main.js": "/MelPersonalityQuiz/static/js/main.7490ef96.js",
     "static/media/titleImage.jpg": "/MelPersonalityQuiz/static/media/titleImage.45bd9fd59bb8b23fb80a.jpg",
+    "static/media/3.png": "/MelPersonalityQuiz/static/media/3.6660a5fc50d1115df5ed.png",
+    "static/media/17.png": "/MelPersonalityQuiz/static/media/17.3f0668e1d4d3ec0f85a5.png",
+    "static/media/7.png": "/MelPersonalityQuiz/static/media/7.14c3c142561188c54d12.png",
+    "static/media/2.png": "/MelPersonalityQuiz/static/media/2.a9a153ff584e2711ece3.png",
+    "static/media/0.png": "/MelPersonalityQuiz/static/media/0.c0766df451840677ba72.png",
+    "static/media/10.png": "/MelPersonalityQuiz/static/media/10.9b99318643ec698f2c19.png",
+    "static/media/11.png": "/MelPersonalityQuiz/static/media/11.9b99318643ec698f2c19.png",
+    "static/media/16.png": "/MelPersonalityQuiz/static/media/16.275a7b84386db7d8d164.png",
+    "static/media/1.png": "/MelPersonalityQuiz/static/media/1.bad97069388c8744b9f6.png",
+    "static/media/5.png": "/MelPersonalityQuiz/static/media/5.888581e6b47a1b5d26fa.png",
+    "static/media/13.png": "/MelPersonalityQuiz/static/media/13.6f858ed53e1d04c8f871.png",
+    "static/media/15.png": "/MelPersonalityQuiz/static/media/15.06fa019c61da6ba25a66.png",
+    "static/media/CARMEN.png": "/MelPersonalityQuiz/static/media/CARMEN.f39f3c5277df3c6c3f2a.png",
+    "static/media/QURESHI.png": "/MelPersonalityQuiz/static/media/QURESHI.bbb67ee62e5ce7a8ccb1.png",
+    "static/media/6.png": "/MelPersonalityQuiz/static/media/6.e53bce6dfa41567dfa97.png",
+    "static/media/MEDHA.png": "/MelPersonalityQuiz/static/media/MEDHA.a8db673c282c9ecd59c9.png",
+    "static/media/VICTORIA.png": "/MelPersonalityQuiz/static/media/VICTORIA.e8aa17dc88a1fba12228.png",
+    "static/media/ANNIE.png": "/MelPersonalityQuiz/static/media/ANNIE.8ce6b29644dae0035c67.png",
+    "static/media/MOHAIMEN.png": "/MelPersonalityQuiz/static/media/MOHAIMEN.0ebcaa607e042e214d87.png",
+    "static/media/4.jpg": "/MelPersonalityQuiz/static/media/4.2df9f98e9d3c2203a109.jpg",
+    "static/media/BASHAR.png": "/MelPersonalityQuiz/static/media/BASHAR.9cb4a0c9fae9484525f1.png",
+    "static/media/JONATHAN.png": "/MelPersonalityQuiz/static/media/JONATHAN.f83813026a7256d58d9c.png",
+    "static/media/12.jpg": "/MelPersonalityQuiz/static/media/12.a5513fe9ae697728e158.jpg",
+    "static/media/14.jpg": "/MelPersonalityQuiz/static/media/14.a5513fe9ae697728e158.jpg",
     "static/media/background1.png": "/MelPersonalityQuiz/static/media/background1.fda59121d2b54b66410d.png",
     "static/media/help.png": "/MelPersonalityQuiz/static/media/help.ce74605a80b2cde71d9b.png",
     "static/media/discord.png": "/MelPersonalityQuiz/static/media/discord.dc949575e585361cbf56.png",
@@ -12,11 +35,11 @@
     "static/media/email.png": "/MelPersonalityQuiz/static/media/email.6ac7d6570facaee26445.png",
     "static/media/linktree.png": "/MelPersonalityQuiz/static/media/linktree.70d3703b9e28aeef6c22.png",
     "index.html": "/MelPersonalityQuiz/index.html",
-    "main.f924097b.css.map": "/MelPersonalityQuiz/static/css/main.f924097b.css.map",
-    "main.ff73d440.js.map": "/MelPersonalityQuiz/static/js/main.ff73d440.js.map"
+    "main.46bcaa75.css.map": "/MelPersonalityQuiz/static/css/main.46bcaa75.css.map",
+    "main.7490ef96.js.map": "/MelPersonalityQuiz/static/js/main.7490ef96.js.map"
   },
   "entrypoints": [
-    "static/css/main.f924097b.css",
-    "static/js/main.ff73d440.js"
+    "static/css/main.46bcaa75.css",
+    "static/js/main.7490ef96.js"
   ]
 }
