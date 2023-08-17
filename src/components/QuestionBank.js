@@ -160,7 +160,7 @@ const QuizBank = [
         answerC: "Use butterknife the ol' fashion way",
         nutricAdderC: 2,
         
-        answerD: "Stick to the butterknife given, but find other sneakier ways of gaming the system.",
+        answerD: "Stick to the butterknife, but find another way to game the system.",
         competitiveAdderD: 2,
 
         idNextQuestionA: 16,

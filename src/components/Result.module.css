@@ -4,13 +4,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 4em;
+    margin: 3em;
 }
 
 .ResultImage{
-    max-width: 25vw;
+    width: 80vw;
     height: auto;
-    margin: 2vw 0;
+    margin: 2.25em 0;
+    max-width: 480px;
 }
 
 
@@ -22,19 +23,19 @@
 .ResultTitle{
     text-align: center;
     font-size: 2.5em;
-    margin-top: 2vh;
-    margin-bottom: 2vh;
+    margin-top: 1.25em;
+    margin-bottom: 0
 }
 
 .Button{
     margin: 0.5em;
     border: 0.15em solid rgba(224, 240, 255, 0.2);
-    border-radius: 1.25em;
+    border-radius: 0.75em;
     outline: none;
     display: flex;
-    width: 37vw;
-    height: 4em;
-    padding: 1vw;
+    width: 35vw;
+    height: 3em;
+    padding: 1em;
     background-color: #230660;
     font-family: 'Basier Circle', sans-serif;
     color: #e0f0ff;
@@ -61,9 +62,8 @@
 
 
 .buttonIcon{
-    width: 2em;
-    padding: 0.1em;
-    margin-right: 1em;
+    width: 1.5em;
+    margin-right: 0.5em;
     filter: brightness(39) hue-rotate(-75deg);
 }
 
@@ -77,7 +77,8 @@
 
 @media(max-width: 768px){
     .ResultImage{
-        max-width: 80vw;
+        width: 80vw;
+        max-width: 480px;
     }
 
     .ResultTitle{

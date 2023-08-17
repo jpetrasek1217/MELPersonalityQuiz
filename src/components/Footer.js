@@ -20,11 +20,11 @@ function Footer(){
                 </div>
                 <h3 className={classes.Clubfest}>Come see us at Clubfest!</h3>
                 <div className={classes.ClubfestDetailsContainer}>
-                    <p className={classes.ClubfestDetail}>September 11, 2023</p>
+                    <p className={classes.ClubfestDetail}>September 5, 2023</p>
                     <div className={classes.ClubfestDetail}>
-                    <p className={classes.ClubfestDetail}>11AM-3PM</p>
+                    <p className={classes.ClubfestDetail}>2PM-6PM</p>
                     <div className={classes.ClubfestDetail}>
-                        <p className={classes.ClubfestTableText}>Table 302</p>
+                        <p className={classes.ClubfestTableText}>BSB Field</p>
                         <img src={help} alt='Confused on where Table 302 is? Click here!' className={classes.ClubfestTable}/>
                     </div>
                     </div>
