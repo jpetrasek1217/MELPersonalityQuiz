@@ -12,7 +12,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 3em;
+    margin: 1em;
+    margin-bottom: 4em;
 }
 
 .StartButton{
@@ -78,9 +79,10 @@
 }
 
 .titleImage{
-    max-width: 40vw;
+    width: 80vw;
     height: auto;
     margin: 1vw 0;
+    max-width: 720px;
 }
 
 .HomeTitle{
@@ -117,22 +119,21 @@
 
 @media(max-width: 767px){
     .HomeTitle{
-        font-size: 1.5em;
+        font-size: 1.25em;
     }
 
     .StartButton{
         margin: 0.5em;
         border: 0.15em solid rgba(224, 240, 255, 0.2);
-        border-radius: 1.25em;
+        border-radius: 0.75em;
         outline: none;
         display: flex;
-        width: 60vw;
-        height: 4em;
-        padding: 1vw;
+        width: 75vw;
+        height: 3em;
         background-color: #230660;
         font-family: 'Basier Circle', sans-serif;
         color: #e0f0ff;
-        font-size: 1em;
+        font-size: 1.25em;
         position: relative;
         align-items: center;
         justify-content: center;
@@ -144,16 +145,15 @@
     .ShareButton{
         margin: 0.5em;
         border: 0.15em solid rgba(224, 240, 255, 0.2);
-        border-radius: 1.25em;
+        border-radius: 0.75em;
         outline: none;
         display: flex;
-        width: 40vw;
-        height: 4em;
-        padding: 1vw;
+        width: 50vw;
+        height: 3em;
         background-color: #230660;
         font-family: 'Basier Circle', sans-serif;
         color: #e0f0ff;
-        font-size: 1em;
+        font-size: 1.25em;
         position: relative;
         align-items: center;
         justify-content: center;
@@ -161,5 +161,16 @@
         transition: transform 0.2s ease;
         box-shadow: none;
     }
+
+    .titleImage{
+        max-width: 75vw;
+        height: auto;
+        margin: 1vw 0;
+    }
     
+    .buttonIcon{
+        width: 1.0em;
+        margin-right: 0.5em;
+        filter: brightness(39) hue-rotate(-75deg);
+    }
 }

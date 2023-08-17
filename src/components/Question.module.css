@@ -2,28 +2,29 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 2vw;
-    margin: 7vh 5vw 0;
+    padding: 2em;
+    margin: 1em 0 0em 0;
     z-index: 0;
 }
 
 .QuestionText{
     text-align: center;
     font-size: 2em;
-    margin-top: 1vh;
-    margin-bottom: 1vh;
+    margin-top: 1.25em;
+    margin-bottom: 1.25em;
     
 }
 
 .questionImage{
     display: flex;
-    max-width: 55vh;
+    width: 45vw;
+    max-width: 500px;
     padding: 0;
     margin-bottom: 0vh;
 }
 
 .Button{
-    margin: 0 1em;
+    margin-left: 1em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -36,12 +37,12 @@
     border-radius: 1.25em;
     outline: none;
     display: flex;
-    width: 35vw;
+    width: 40vw;
     height: 4em;
-    padding: 1vw;
+    padding: 1em;
     background-color: #230660;
     font-family: 'Basier Circle', sans-serif;
-    color: #e0f0ff;
+    color: #ffffff;
     font-size: 1.2em;
     position: relative;
     align-items: center;
@@ -53,7 +54,6 @@
 
 .ImageAndAnswers{
     display: flex;
-    margin: 2em;
     flex-direction: row;
     align-items: center;
 }
@@ -61,7 +61,7 @@
 @media(max-width: 767px){
     .answer{
         font-size: 1.0em;
-        width: 75vw;
+        width: 85vw;
     }
 
     .ImageAndAnswers{
@@ -76,9 +76,14 @@
 
     .questionImage{
         display: flex;
-        max-height: 24vh;
-        padding: 0 7.5vw;
-        margin-bottom: 2vh;
+        width: 80vw;
+        max-width: 480px;
+        padding: 0;
+        margin-bottom: 1em;
+    }
+
+    .Button{
+        margin-left: 0;
     }
 }
 
@@ -106,17 +111,17 @@
 }
 
 .progressBarContainer{
-    margin-bottom: 4vh;
-    margin-top: 2vh;
-    width: 84vw;
+    margin-bottom: 3em;
+    margin-top: 0;
+    width: 88vw;
     height: 0.5em;
     border-radius: 99999999999999999999px;
-    background-color: #1438D7;
+    background-color: #1943FF;
     opacity: 1;
 }
 
 .movingBackground{
-    background-color: #e0f0ff;
+    background-color: #ffffff;
     border-radius: 99999999999999999999px;
     opacity: 1;
     height: inherit;

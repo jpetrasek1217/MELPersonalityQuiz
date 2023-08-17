@@ -29,12 +29,12 @@ function HomePage(){
                 <Link className={classes.Link} to='/MelPersonalityQuiz/quiz'>
                     <button className={classes.StartButton} onClick={handleStart}>
                         <img className={classes.buttonIcon} src={StartIcon} alt="Start icon" />
-                        START QUIZ
+                        START
                     </button>
                 </Link>
                 <button className={classes.ShareButton} onClick={handleShare}>
                     <img className={classes.buttonIcon} src={ShareIcon} alt="Start icon" />
-                    Share Quiz
+                    Share
                 </button>
             </div>
             <Footer className={classes.titleFooter}/>

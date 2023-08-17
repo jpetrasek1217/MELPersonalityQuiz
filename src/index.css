@@ -9,8 +9,10 @@ body {
   width: inherit;
   height: auto;
   margin: 0;
-  color: #e0f0ff;
-  background-color: #230660;
+  color: #ffffff;
+  background-size: 100% 100%;
+background-position: 0px 0px,0px 0px,0px 0px,0px 0px;
+background-image: radial-gradient(113% 91% at 17% -2%, #660057B8 1%, #FF000000 99%),radial-gradient(142% 91% at 112% 18%, #3D0066 1%, #FF000000 99%),radial-gradient(142% 91% at 83% 7%, #001366 1%, #FF000000 99%),radial-gradient(142% 91% at 111% 84%, #230660 0%, #001366 100%);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -44,12 +46,12 @@ h2{
 @media(min-width: 768px){
   h1 {
     font-size: 2.5rem;
-    color: #e0f0ff;
+    color: #ffffff;
   }
   
   h2 {
     font-size: 1.5rem;
-    color: #e0f0ff;
+    color: #ffffff;
   }
 }
 

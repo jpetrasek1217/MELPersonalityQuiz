@@ -48,12 +48,12 @@ function Result(props){
                 <Link className={classes.Link} to="/MelPersonalityQuiz/quiz" onClick={navigate("/MelPersonalityQuiz/quiz")}>
                     <button className={classes.Button} onClick={navigate("/MelPersonalityQuiz/quiz")}>
                         <img className={classes.buttonIcon} src={restartIcon} alt="restart icon" />
-                        Restart Quiz
+                        Restart
                     </button>
                 </Link>
                 <button className={classes.Button} onClick={copyToClip}>
                     <img className={classes.buttonIcon} src={shareIcon} alt="copy icon"/>
-                    Share Result
+                    Share
                 </button>
             </div>
         </div>

@@ -54,7 +54,7 @@ function Question() {
         console.log("added stuff from question" + currentQ.id);
 
         if(progress < 91) {
-            setProgress(progress + 10);
+            setProgress(progress + 11);
         }
         
         if (currentQ.idNextQuestionA !== 18){
@@ -116,7 +116,7 @@ function Question() {
         console.log("added stuff from question" + currentQ.id);
         
         if(progress < 91) {
-            setProgress(progress + 10);
+            setProgress(progress + 11);
         }
         
         if (currentQ.idNextQuestionB !== 18){
@@ -177,7 +177,7 @@ function Question() {
         console.log("added stuff from question" + currentQ.id);
         
         if(progress < 91) {
-            setProgress(progress + 10);
+            setProgress(progress + 11);
         }
         
         if (currentQ.idNextQuestionC !== 18){
@@ -238,7 +238,7 @@ function Question() {
         console.log("added stuff from question" + currentQ.id);
         
         if(progress < 91) {
-            setProgress(progress + 10);
+            setProgress(progress + 11);
         }
         
         if (currentQ.idNextQuestionD !== 18){

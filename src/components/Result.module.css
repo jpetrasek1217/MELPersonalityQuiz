@@ -4,7 +4,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 10vh;
+    margin: 4em;
 }
 
 .ResultImage{
@@ -60,20 +60,6 @@
 }
 
 
-@media(max-width: 768px){
-    .ResultImage{
-        max-width: 80vw;
-    }
-
-    .ResultTitle{
-        font-size: 1.5em;
-    }
-    .Button{
-        font-size: 1.0em;
-        width: 40vw;
-    }
-}
-
 .buttonIcon{
     width: 2em;
     padding: 0.1em;
@@ -88,3 +74,34 @@
 .Link{
     text-decoration: none;
 }
+
+@media(max-width: 768px){
+    .ResultImage{
+        max-width: 80vw;
+    }
+
+    .ResultTitle{
+        font-size: 1.5em;
+    }
+    .Button{
+        font-size: 1.25em;
+        width: 40vw;
+        height: 3em;
+        border-radius: 0.75em
+    }
+
+    .buttonIcon{
+        margin-right: 0.5em;
+        width: 1.5em;
+    }
+
+    .ResultContainer{
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 4em;
+    }
+}
+

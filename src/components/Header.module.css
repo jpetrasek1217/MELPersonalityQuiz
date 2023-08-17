@@ -6,8 +6,8 @@
     left: 0;
     flex-direction: row;
     width: 100vw;
-    height: 7vh;
-    background-color: #e0f0ff;
+    height: 3em;
+    background-color: #ffffff;
     justify-content: space-between;
     align-items: center;
     z-index: 2;
@@ -16,29 +16,29 @@
 .headerItem{
     font-size: 0.9em;
     display: flex;
-    padding: 2.5vw 1vw;
+    padding: 0.75em 0.75em;
     color: #230660;
-    height: 7vh;
+    height: 3.5em;
     width: auto;
     align-items: center;
-    margin: 1vh 0.4vh;
+    margin: 0 0.25em;
 }
 
 .headerText{
     text-align: center;
-    font-size: 0.75em;
+    font-size: 1.0em;
     display: flex;
     color: #230660;
-    height: 7vh;
+    height: 3em;
     width: auto;
     align-items: center;
-    margin: 1vh;
+    margin: 0;
 }
 
 @media(min-width: 680px){
     .headerItem{
         padding: 1.5vw;
-        margin: 0 1vw;
+        margin: 0 0.25em;
     }
 
     .headerText{
@@ -49,8 +49,7 @@
 
 @media(min-width: 1200px){
     .headerItem{
-        padding: 1.0vw;
-        margin: 0 1vw;
+        padding: 0.75em;
        
     }
 
