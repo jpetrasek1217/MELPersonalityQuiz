@@ -36,7 +36,7 @@ function Result(props){
     }
     
     const copyToClip = () => {
-        navigator.clipboard.writeText(window.location.href);
+        navigator.clipboard.writeText("https://jpetrasek1217.github.io/MelPersonalityQuiz/");
         alert("Result copied to clipboard!");
     }
 
