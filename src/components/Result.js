@@ -36,7 +36,7 @@ function Result(props){
     }
     
     const copyToClip = () => {
-        navigator.clipboard.writeText("https://jpetrasek1217.github.io/MelPersonalityQuiz/");
+        navigator.clipboard.writeText("You got " + props.title + "\n"  + "Find out your MEL Exec at\n" + "https://jpetrasek1217.github.io/MelPersonalityQuiz/");
         alert("Result copied to clipboard!");
     }
 
