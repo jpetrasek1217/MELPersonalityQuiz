@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MelPersonalityQuiz/static/css/main.8bf42dc7.css",
-    "main.js": "/MelPersonalityQuiz/static/js/main.648785ad.js",
+    "main.css": "/MelPersonalityQuiz/static/css/main.0ddc9a0d.css",
+    "main.js": "/MelPersonalityQuiz/static/js/main.3de53692.js",
     "static/media/titleImage.jpg": "/MelPersonalityQuiz/static/media/titleImage.45bd9fd59bb8b23fb80a.jpg",
     "static/media/3.png": "/MelPersonalityQuiz/static/media/3.6660a5fc50d1115df5ed.png",
     "static/media/17.png": "/MelPersonalityQuiz/static/media/17.3f0668e1d4d3ec0f85a5.png",
@@ -16,9 +16,9 @@
     "static/media/13.png": "/MelPersonalityQuiz/static/media/13.6f858ed53e1d04c8f871.png",
     "static/media/15.png": "/MelPersonalityQuiz/static/media/15.06fa019c61da6ba25a66.png",
     "static/media/CARMEN.png": "/MelPersonalityQuiz/static/media/CARMEN.f39f3c5277df3c6c3f2a.png",
-    "static/media/QURESHI.png": "/MelPersonalityQuiz/static/media/QURESHI.bbb67ee62e5ce7a8ccb1.png",
     "static/media/6.png": "/MelPersonalityQuiz/static/media/6.e53bce6dfa41567dfa97.png",
     "static/media/MEDHA.png": "/MelPersonalityQuiz/static/media/MEDHA.a8db673c282c9ecd59c9.png",
+    "static/media/QURESHI.png": "/MelPersonalityQuiz/static/media/QURESHI.9797ca66bd69a02b7e1a.png",
     "static/media/VICTORIA.png": "/MelPersonalityQuiz/static/media/VICTORIA.e8aa17dc88a1fba12228.png",
     "static/media/ANNIE.png": "/MelPersonalityQuiz/static/media/ANNIE.8ce6b29644dae0035c67.png",
     "static/media/MOHAIMEN.png": "/MelPersonalityQuiz/static/media/MOHAIMEN.0ebcaa607e042e214d87.png",
@@ -34,11 +34,11 @@
     "static/media/email.png": "/MelPersonalityQuiz/static/media/email.6ac7d6570facaee26445.png",
     "static/media/linktree.png": "/MelPersonalityQuiz/static/media/linktree.70d3703b9e28aeef6c22.png",
     "index.html": "/MelPersonalityQuiz/index.html",
-    "main.8bf42dc7.css.map": "/MelPersonalityQuiz/static/css/main.8bf42dc7.css.map",
-    "main.648785ad.js.map": "/MelPersonalityQuiz/static/js/main.648785ad.js.map"
+    "main.0ddc9a0d.css.map": "/MelPersonalityQuiz/static/css/main.0ddc9a0d.css.map",
+    "main.3de53692.js.map": "/MelPersonalityQuiz/static/js/main.3de53692.js.map"
   },
   "entrypoints": [
-    "static/css/main.8bf42dc7.css",
-    "static/js/main.648785ad.js"
+    "static/css/main.0ddc9a0d.css",
+    "static/js/main.3de53692.js"
   ]
 }
