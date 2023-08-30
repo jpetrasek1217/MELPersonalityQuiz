@@ -33,13 +33,14 @@
     align-items: center;
     justify-content: center;
     filter: drop-shadow(0.5rem 0.5rem 0.25rem #000000);
-    transition: transform 0.2s ease;
+    transition: background-color 0.2s cubic-bezier(0.5, 0, 0.5, 1), transform 0.2s cubic-bezier(0.5, 0, 0.5, 1), color 0.2s cubic-bezier(0.5, 0, 0.5, 1);
     box-shadow: none;
 }
 
 .StartButton:hover{
     background-color: #e0f0ff;
     color: #230660;
+    transition: background-color 0.2s cubic-bezier(0.5, 0, 0.5, 1), transform 0.2s cubic-bezier(0.5, 0, 0.5, 1), color 0.2s cubic-bezier(0.5, 0, 0.5, 1);
 }
 
 .StartButton:active{
@@ -64,13 +65,14 @@
     align-items: center;
     justify-content: center;
     filter: drop-shadow(0.5rem 0.5rem 0.25rem #000000);
-    transition: transform 0.2s ease;
+    transition: background-color 0.2s cubic-bezier(0.5, 0, 0.5, 1), transform 0.2s cubic-bezier(0.5, 0, 0.5, 1), color 0.2s cubic-bezier(0.5, 0, 0.5, 1);
     box-shadow: none;
 }
 
 .ShareButton:hover{
     background-color: #e0f0ff;
     color: #230660;
+    transition: background-color 0.2s cubic-bezier(0.5, 0, 0.5, 1), transform 0.2s cubic-bezier(0.5, 0, 0.5, 1), color 0.2s cubic-bezier(0.5, 0, 0.5, 1);
 }
 
 .ShareButton:active{

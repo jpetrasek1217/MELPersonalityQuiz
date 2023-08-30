@@ -181,7 +181,7 @@ const QuizBank = [
         answerD: ""
     },
     {
-        question: "the minievent is to cut a piece of chocolate out of hundreds of layers of newspaper wrapped around it. Your groupmate has a swiss army knife you can use instead of the butterknife given. What do you do?",
+        question: "The minievent is to cut a piece of chocolate out of hundreds of layers of newspaper wrapped around it. Your groupmate has a swiss army knife you can use instead of the butterknife given. What do you do?",
         id: 14,
         answerA: "Give the chocolate to someone else",
         casualAdderA: 2,
