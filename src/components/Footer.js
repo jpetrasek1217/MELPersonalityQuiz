@@ -25,7 +25,7 @@ function Footer(){
                     <p className={classes.ClubfestDetail}>2PM-6PM</p>
                     <div className={classes.ClubfestDetail}>
                         <p className={classes.ClubfestTableText}>Table 137</p>
-                        <Link to="https://www.instagram.com/msuclubs/" target='_blank'><img src={help} alt='Confused on where Table 302 is? Click here!' className={classes.ClubfestTable}/></Link>
+                        <Link to="https://www.instagram.com/p/Cwk-dPrrAaL/?img_index=1" target='_blank'><img src={help} alt='Confused on where Table 137 is? Click here!' className={classes.ClubfestTable}/></Link>
                     </div>
                     </div>
                     
