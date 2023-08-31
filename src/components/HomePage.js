@@ -1,7 +1,7 @@
 import Footer from './Footer';
-import StartIcon from './assets/StartIcon.png';
-import ShareIcon from './assets/shareIcon.png';
-import titleImage from './assets/titleImage.jpg';
+import StartIcon from './assets/StartIcon.webp';
+import ShareIcon from './assets/shareIcon.webp';
+import titleImage from './assets/titleImage.webp';
 import { Link, useNavigate } from 'react-router-dom';
 import classes from './HomePage.module.css';
 

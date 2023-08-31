@@ -1,14 +1,14 @@
 import classes from "./Result.module.css";
-import restartIcon from './assets/restart.png';
-import shareIcon from './assets/shareIcon.png';
-import Jonathan from './assets/JONATHAN.png';
-import Carmen from './assets/CARMEN.png';
-import Bashar from './assets/BASHAR.png';
-import Qureshi from './assets/QURESHI.png';
-import Mohaimen from './assets/MOHAIMEN.png';
-import Medha from './assets/MEDHA.png';
-import Victoria from './assets/VICTORIA.png';
-import Annie from './assets/ANNIE.png';
+import restartIcon from './assets/restart.webp';
+import shareIcon from './assets/shareIcon.webp';
+import Jonathan from './assets/JONATHAN.webp';
+import Carmen from './assets/CARMEN.webp';
+import Bashar from './assets/BASHAR.webp';
+import Qureshi from './assets/QURESHI.webp';
+import Mohaimen from './assets/MOHAIMEN.webp';
+import Medha from './assets/MEDHA.webp';
+import Victoria from './assets/VICTORIA.webp';
+import Annie from './assets/ANNIE.webp';
 import {Link, useNavigate } from "react-router-dom";
 
 function Result(props){
@@ -36,7 +36,7 @@ function Result(props){
     }
     
     const copyToClip = () => {
-        navigator.clipboard.writeText("You got " + props.title + "\n"  + "Find out your MEL Exec at\n" + "https://jpetrasek1217.github.io/MelPersonalityQuiz/");
+        navigator.clipboard.writeText("You got " + props.title + "\nFind out your MEL Exec at\nhttps://jpetrasek1217.github.io/MelPersonalityQuiz/");
         alert("Result copied to clipboard!");
     }
 

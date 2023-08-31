@@ -1,10 +1,10 @@
 import classes from './Footer.module.css';
-import linktree from './assets/linktree.png';
-import discord from './assets/discord.png';
-import instagram from './assets/instagram.png';
-import email from './assets/email.png';
-import twitch from './assets/twitch.png';
-import help from './assets/help.png'
+import linktree from './assets/linktree.webp';
+import discord from './assets/discord.webp';
+import instagram from './assets/instagram.webp';
+import email from './assets/email.webp';
+import twitch from './assets/twitch.webp';
+import help from './assets/help.webp'
 import {Link} from 'react-router-dom';
 
 function Footer(){

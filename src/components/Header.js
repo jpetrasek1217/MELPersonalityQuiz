@@ -1,6 +1,6 @@
 import classes from './Header.module.css';
-import melLogo from './assets/melLogo.png';
-import restart from './assets/restart.png';
+import melLogo from './assets/melLogo.webp';
+import restart from './assets/restart.webp';
 import { Link } from 'react-router-dom';
 import { useNavigate, useLocation} from 'react-router-dom';
 
